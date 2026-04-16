@@ -1,0 +1,111 @@
+<svg width="1000" height="720" viewBox="0 0 1000 720" xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+    <!-- Gradients -->
+    <linearGradient id="bgGradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f8fafc"/>
+      <stop offset="100%" stop-color="#eef2ff"/>
+    </linearGradient>
+
+    <linearGradient id="coreGradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#eef2ff"/>
+      <stop offset="100%" stop-color="#e0e7ff"/>
+    </linearGradient>
+
+    <linearGradient id="gpuGradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ecfeff"/>
+      <stop offset="100%" stop-color="#cffafe"/>
+    </linearGradient>
+
+    <linearGradient id="optionalGradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#fefce8"/>
+      <stop offset="100%" stop-color="#fef3c7"/>
+    </linearGradient>
+
+    <!-- Shadow -->
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000000" flood-opacity="0.08"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1000" height="720" fill="url(#bgGradient)" rx="20"/>
+
+  <!-- Styles -->
+  <style>
+    .title { font: bold 22px sans-serif; fill: #111827; }
+    .subtitle { font: 13px sans-serif; fill: #6b7280; }
+    .label { font: 14px sans-serif; fill: #1f2937; }
+    .small { font: 12px sans-serif; fill: #6b7280; }
+    .section { font: bold 16px sans-serif; fill: #374151; }
+
+    .box { fill: white; stroke: #e5e7eb; stroke-width: 1.2; rx: 16; filter: url(#shadow); }
+    .core { fill: url(#coreGradient); stroke: #6366f1; }
+    .gpu { fill: url(#gpuGradient); stroke: #06b6d4; }
+    .optional { fill: url(#optionalGradient); stroke: #eab308; }
+  </style>
+
+  <!-- Game -->
+  <rect x="350" y="30" width="300" height="70" class="box"/>
+  <text x="500" y="60" text-anchor="middle" class="title">Game / Application</text>
+  <text x="500" y="80" text-anchor="middle" class="subtitle">Built with Campello</text>
+
+  <!-- Engine API -->
+  <rect x="400" y="130" width="200" height="55" class="box"/>
+  <text x="500" y="160" text-anchor="middle" class="label">Engine API</text>
+
+  <!-- Systems -->
+  <text x="500" y="220" text-anchor="middle" class="section">Systems</text>
+
+  <rect x="80" y="240" width="180" height="75" class="box"/>
+  <text x="170" y="275" text-anchor="middle" class="label">Renderer</text>
+  <text x="170" y="295" text-anchor="middle" class="small">campello_renderer</text>
+
+  <rect x="280" y="240" width="180" height="75" class="box"/>
+  <text x="370" y="275" text-anchor="middle" class="label">Widgets</text>
+  <text x="370" y="295" text-anchor="middle" class="small">campello_widgets</text>
+
+  <rect x="480" y="240" width="180" height="75" class="box"/>
+  <text x="570" y="275" text-anchor="middle" class="label">Audio</text>
+  <text x="570" y="295" text-anchor="middle" class="small">campello_audio</text>
+
+  <rect x="680" y="240" width="180" height="75" class="box"/>
+  <text x="770" y="275" text-anchor="middle" class="label">Input</text>
+  <text x="770" y="295" text-anchor="middle" class="small">campello_input</text>
+
+  <!-- Core -->
+  <rect x="400" y="340" width="200" height="80" class="box core"/>
+  <text x="500" y="375" text-anchor="middle" class="label">Core ECS</text>
+  <text x="500" y="395" text-anchor="middle" class="small">campello_core</text>
+
+  <!-- Low Level -->
+  <text x="500" y="460" text-anchor="middle" class="section">Low Level</text>
+
+  <rect x="80" y="480" width="180" height="75" class="box gpu"/>
+  <text x="170" y="515" text-anchor="middle" class="label">GPU</text>
+  <text x="170" y="535" text-anchor="middle" class="small">campello_gpu</text>
+
+  <rect x="280" y="480" width="180" height="75" class="box"/>
+  <text x="370" y="515" text-anchor="middle" class="label">Assets</text>
+  <text x="370" y="535" text-anchor="middle" class="small">gltf / image</text>
+
+  <rect x="480" y="480" width="180" height="75" class="box"/>
+  <text x="570" y="515" text-anchor="middle" class="label">Math</text>
+  <text x="570" y="535" text-anchor="middle" class="small">vector_math</text>
+
+  <rect x="680" y="480" width="180" height="75" class="box"/>
+  <text x="770" y="515" text-anchor="middle" class="label">Platform</text>
+  <text x="770" y="535" text-anchor="middle" class="small">OS / Backends</text>
+
+  <!-- Optional -->
+  <text x="500" y="590" text-anchor="middle" class="section">Optional Systems</text>
+
+  <rect x="300" y="610" width="180" height="65" class="box optional"/>
+  <text x="390" y="635" text-anchor="middle" class="label">Physics</text>
+  <text x="390" y="655" text-anchor="middle" class="small">campello_physics</text>
+
+  <rect x="520" y="610" width="180" height="65" class="box optional"/>
+  <text x="610" y="635" text-anchor="middle" class="label">Networking</text>
+  <text x="610" y="655" text-anchor="middle" class="small">campello_net</text>
+
+</svg>

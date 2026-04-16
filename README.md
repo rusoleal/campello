@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="./assets/campello_logo_git.png" height="240" alt="Campello logo" />
+  <img src="./assets/campello_logo_git.png" height="320" alt="Campello logo" />
 </p>
 
-*A modular, composable game engine inspired by declarative design.*
+*A composable C++ game engine bringing declarative design into real-time rendering.*
 
 Campello is a modular and multiplatform, cpp20 low-level game engine built as a collection of independent libraries.
 
@@ -37,7 +37,7 @@ Campello targets modern desktop and mobile platforms with a focus on portability
 | Linux   | Desktop  | Actively supported | Vulkan | PulseAudio |
 | iOS     | Mobile   | Actively supported | Metal | CoreAudio |
 | Android | Mobile   | Actively supported | Vulkan | AAudio |
-| Web     | Multiplatform   | -------- | WebGPU | ------ |
+| Web     | Multiplatform   | Experimental | WebGPU | ------ |
 
 ---
 
@@ -49,10 +49,16 @@ This allows the same engine modules to run consistently across all supported tar
 
 ---
 
+## 🏗️ Architecture Overview
+
+![Campello Architecture](./assets/architecture.svg)
+
+---
+
 ## 📦 Modules
 
 ### 🧬 [campello_core](https://github.com/rusoleal/campello_core) - Core ECS
-Core ECS library for building games based on Campello ecosystem.
+Core ECS library that acts as the backbone of the entire Campello architecture.
 
 ---
 
@@ -62,7 +68,7 @@ Core ECS library for building games based on Campello ecosystem.
 ---
 
 ### 🧩 [campello_widgets](https://github.com/rusoleal/campello_widgets) - UI / Widgets
-Declarative-style UI system inspired by modern frameworks. Built with [campello_gpu](https://github.com/rusoleal/campello_gpu).
+Declarative UI system inspired by Flutter, designed to integrate deeply with the engine runtime. Built on top of [campello_gpu](https://github.com/rusoleal/campello_gpu).
 
 ---
 
@@ -72,7 +78,7 @@ Audio playback and processing.
 ---
 
 ### ⚡ [campello_physics](https://github.com/rusoleal/campello_physics) - Physics stuff
-Audio playback and processing.
+Physics engine.
 
 ---
 
@@ -87,7 +93,7 @@ Unified input handling.
 ---
 
 ### 📦 [campello_gpu](https://github.com/rusoleal/campello_gpu) - Graphics abstraction
-Gpu pipelines abstraction based on webgpu.
+Gpu pipelines abstraction inspired by WebGPU.
 
 ---
 
