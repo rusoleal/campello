@@ -1,8 +1,10 @@
-# 🚀 Campello
+<p align="center">
+  <img src="./assets/campello_logo_git.png" width="180" alt="Campello logo" />
+</p>
 
 *A modular, composable game engine inspired by declarative design.*
 
-Campello is a modular, low-level game engine built as a collection of independent libraries.
+Campello is a modular and multiplatform, cpp20 low-level game engine built as a collection of independent libraries.
 
 Instead of a monolithic architecture, Campello is designed as a **composable system**, where each subsystem (rendering, audio, input, UI, assets) evolves independently but integrates seamlessly.
 
@@ -21,15 +23,6 @@ Instead of a monolithic architecture, Campello is designed as a **composable sys
 
 - 🛠️ **Editor-driven development**  
   A private editor validates real-world usage and guides API design.
-
----
-
-## 🏗️ Architecture
-    [ Campello Editor (private) ]
-                ↓
-        [ Engine Layer ]
-                ↓
-
 
 ---
 
