@@ -28,15 +28,15 @@ Instead of a monolithic architecture, Campello is designed as a **composable sys
 
 ## 🖥️ Supported Platforms
 
-Campello is designed with cross-platform runtime support in mind, with a focus on modern desktop and mobile systems.
+Campello targets modern desktop and mobile platforms with a focus on portability and a shared core runtime.
 
-### 🎯 Actively Targeted Platforms
-
-- **Windows** (desktop)
-- **Linux** (desktop)
-- **macOS** (desktop)
-- **iOS** (mobile)
-- **Android** (mobile)
+| Platform  | Category | Status        | Graphics backend | Audio backend
+|----------|----------|--------------|------|-|
+| Windows | Desktop  | Actively supported | DirectX12 | WASAPI |
+| macOS   | Desktop  | Actively supported | Metal | CoreAudio |
+| Linux   | Desktop  | Actively supported | Vulkan | PulseAudio |
+| iOS     | Mobile   | Actively supported | Metal | CoreAudio |
+| Android | Mobile   | Actively supported | Vulkan | AAudio |
 
 ---
 
