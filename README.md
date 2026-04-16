@@ -28,7 +28,7 @@ Instead of a monolithic architecture, Campello is designed as a **composable sys
 
 ## 📦 Modules
 
-### 🎨 [campello_renderer](https://github.com/rusoleal/campello_renderer - 3D Rendering
+### 🎨 [campello_renderer](https://github.com/rusoleal/campello_renderer) - 3D Rendering
 3D rendering pipeline on top of [campello_gpu](https://github.com/rusoleal/campello_gpu) based on [gltf spec](https://www.khronos.org/gltf/).
 
 ---
