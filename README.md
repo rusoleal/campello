@@ -26,6 +26,25 @@ Instead of a monolithic architecture, Campello is designed as a **composable sys
 
 ---
 
+## 🖥️ Supported Platforms
+
+Campello is designed with cross-platform runtime support in mind, with a focus on modern desktop and mobile systems.
+
+### 🎯 Actively Targeted Platforms
+
+- **Windows** (desktop)
+- **Linux** (desktop)
+- **macOS** (desktop)
+- **iOS** (mobile)
+- **Android** (mobile)
+
+---
+
+### 🧭 Platform Philosophy
+
+The engine core is built to remain platform-agnostic, with platform-specific functionality isolated behind thin abstraction layers (rendering, input, audio, and system integration).
+
+This allows the same engine modules to run consistently across all supported targets, while still enabling platform-specific optimizations where needed.
 ## 📦 Modules
 
 ### 🎨 [campello_renderer](https://github.com/rusoleal/campello_renderer) - 3D Rendering
