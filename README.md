@@ -28,50 +28,43 @@ Instead of a monolithic architecture, Campello is designed as a **composable sys
 
 ## 📦 Modules
 
-### 🎨 Rendering
-- https://github.com/rusoleal/campello_renderer  
+### 🎨 [campello_renderer](https://github.com/rusoleal/campello_renderer - 3D Rendering
 3D rendering pipeline on top of [campello_gpu](https://github.com/rusoleal/campello_gpu) based on [gltf spec](https://www.khronos.org/gltf/).
 
 ---
 
-### 🧩 UI / Widgets
-- https://github.com/rusoleal/campello_widgets
+### 🧩 [campello_widgets](https://github.com/rusoleal/campello_widgets) - UI / Widgets
 Declarative-style UI system inspired by modern frameworks. Built with [campello_gpu](https://github.com/rusoleal/campello_gpu).
 
 ---
 
-### 🔊 Audio
-- https://github.com/rusoleal/campello_audio
+### 🔊 [campello_audio](https://github.com/rusoleal/campello_audio) - Audio
 Audio playback and processing.
 
 ---
 
-### 🎮 Input
-- https://github.com/rusoleal/campello_input
+### 🎮 [campello_input](https://github.com/rusoleal/campello_input) - Input
 Unified input handling.
 
 ---
 
-### 📦 Graphics abstraction
-- https://github.com/rusoleal/campello_gpu
+### 📦 [campello_gpu](https://github.com/rusoleal/campello_gpu) - Graphics abstraction
+Gpu pipelines abstraction based on webgpu.
 
 ---
 
-### 📦 Gltf 2.0 asset loader
-- https://github.com/rusoleal/gltf
+### 📦 [gltf](https://github.com/rusoleal/gltf) - Gltf 2.0 asset loader
 glTF 2.0 parsing and asset integration.
 
 ---
 
-### 📦 Image asset loader
-- https://github.com/rusoleal/campello_image
-
+### 📦 [campello_image](https://github.com/rusoleal/campello_image) - Image asset loader
+Image loader.
 
 ---
 
-### 📦 Vector/Matrix helper
-- https://github.com/rusoleal/vector_math
-
+### 📦 [vector_math](https://github.com/rusoleal/vector_math) - Vector/Matrix helper
+Multiplatform vector and matrix helper.
 
 ---
 
