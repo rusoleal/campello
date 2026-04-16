@@ -37,6 +37,7 @@ Campello targets modern desktop and mobile platforms with a focus on portability
 | Linux   | Desktop  | Actively supported | Vulkan | PulseAudio |
 | iOS     | Mobile   | Actively supported | Metal | CoreAudio |
 | Android | Mobile   | Actively supported | Vulkan | AAudio |
+| Web     | Multiplatform   | -------- | WebGPU | ------ |
 
 ---
 
@@ -50,6 +51,11 @@ This allows the same engine modules to run consistently across all supported tar
 
 ## 📦 Modules
 
+### 🧬 [campello_core](https://github.com/rusoleal/campello_core) - Core ECS
+Core ECS library for building games based on Campello ecosystem.
+
+---
+
 ### 🎨 [campello_renderer](https://github.com/rusoleal/campello_renderer) - 3D Rendering
 3D rendering pipeline on top of [campello_gpu](https://github.com/rusoleal/campello_gpu) based on [gltf spec](https://www.khronos.org/gltf/).
 
@@ -62,6 +68,16 @@ Declarative-style UI system inspired by modern frameworks. Built with [campello_
 
 ### 🔊 [campello_audio](https://github.com/rusoleal/campello_audio) - Audio
 Audio playback and processing.
+
+---
+
+### ⚡ [campello_physics](https://github.com/rusoleal/campello_physics) - Physics stuff
+Audio playback and processing.
+
+---
+
+### 🌐 [campello_net](https://github.com/rusoleal/campello_net) - Multiplayer 
+Advanced multiplayer library.
 
 ---
 
