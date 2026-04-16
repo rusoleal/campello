@@ -45,6 +45,9 @@ Campello is designed with cross-platform runtime support in mind, with a focus o
 The engine core is built to remain platform-agnostic, with platform-specific functionality isolated behind thin abstraction layers (rendering, input, audio, and system integration).
 
 This allows the same engine modules to run consistently across all supported targets, while still enabling platform-specific optimizations where needed.
+
+---
+
 ## 📦 Modules
 
 ### 🎨 [campello_renderer](https://github.com/rusoleal/campello_renderer) - 3D Rendering
