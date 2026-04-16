@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/campello_logo_git.png" width="360" alt="Campello logo" />
+  <img src="./assets/campello_logo_git.png" height="240" alt="Campello logo" />
 </p>
 
 *A modular, composable game engine inspired by declarative design.*
